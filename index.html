@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +22,7 @@
             <li><a href="#case-studies">Case Studies</a></li>
         </ul>
     </nav>
-    <a class="contact" href="#"><button>Contact</button></a>
+    <a class="contact" href="#contact"><button>Contact</button></a>
   </header>
 
   <section class="home" id="home">
@@ -58,30 +59,80 @@
   <section id="case-studies" class="section-case-studies">
     <h2>Case Studies</h2>
     <div class="case-studies">
-      <div class="case-study">
-        <img src="images/service.jpg" alt="Service Site">
-        <h3>Design 1: Service Website</h3>
-        <p>A website for a local service provider. Coming soon!</p>
-      </div>
-      <div class="case-study">
-        <img src="images/game.png" alt="Game Design">
-        <h3>Design 2: Mini Game</h3>
-        <p>A small interactive game focusing on fun and UI feedback. Coming soon!</p>
-      </div>
-      <div class="case-study">
-        <img src="images/ecommerce.png" alt="E-Commerce">
-        <h3>Design 3: E-Commerce</h3>
-        <p>An online store UI optimized for user experience. Coming soon!</p>
-      </div>
-      <div class="case-study">
-        <img src="images/dashboard.png" alt="Data Visualization">
-        <h3>Design 4: Data Dashboard</h3>
-        <p>A site to analyze and visualize data such as finance or sports. Coming soon!</p>
-      </div>
+      
+      <a href="case-study/design1.html" class="case-study-link">
+        <div class="case-study">
+          <img src="images/service.jpg" alt="Service Site">
+          <h3>Design 1: Service Website</h3>
+          <p>A website for a local service provider. Coming soon!</p>
+        </div>
+      </a>
+  
+      <a href="case-study/design2.html" class="case-study-link">
+        <div class="case-study">
+          <img src="images/game.png" alt="Game Design">
+          <h3>Design 2: Mini Game</h3>
+          <p>A small interactive game focusing on fun and UI feedback. Coming soon!</p>
+        </div>
+      </a>
+  
+      <a href="case-study/design3.html" class="case-study-link">
+        <div class="case-study">
+          <img src="images/ecommerce.png" alt="E-Commerce">
+          <h3>Design 3: E-Commerce</h3>
+          <p>An online store UI optimized for user experience. Coming soon!</p>
+        </div>
+      </a>
+  
+      <a href="case-study/design4.html" class="case-study-link">
+        <div class="case-study">
+          <img src="images/dashboard.png" alt="Data Visualization">
+          <h3>Design 4: Data Dashboard</h3>
+          <p>A site to analyze and visualize data such as finance or sports. Coming soon!</p>
+        </div>
+      </a>
+  
     </div>
   </section>
   
-  <footer></footer>
+
+
+
+  <section id="contact" class="py-4 bg-dark text-light">
+    <div class="container text-center">
+      <h3 class="mb-3" style="color: rgb(46, 193, 230);">Get in Touch</h3>
+      <form class="row justify-content-center">
+        <div class="col-md-4 mb-2">
+          <input type="text" class="form-control bg-secondary text-light border-0" placeholder="Name">
+        </div>
+        <div class="col-md-4 mb-2">
+          <input type="email" class="form-control bg-secondary text-light border-0" placeholder="Email">
+        </div>
+        <div class="col-md-8 mb-2">
+          <textarea class="form-control bg-secondary text-light border-0" rows="3" placeholder="Message"></textarea>
+        </div>
+        <div class="col-md-8">
+          <button type="submit" class="btn btn-outline-info w-100">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  
+  
+  <footer class="bg-dark text-light pt-4 pb-3 mt-5">
+  <div class="container text-center">
+    <div class="mb-3">
+      <a href="https://www.linkedin.com/in/kiro-youssef/" target="_blank" class="text-light me-3">
+        <i class="bi bi-linkedin fs-4"></i>
+      </a>
+      <a href="https://github.com/Kiro025" target="_blank" class="text-light me-3">
+        <i class="bi bi-github fs-4"></i>
+      </a>
+    </div>
+    <p class="mb-0">&copy; 2025 Kiro Youssef. All rights reserved.</p>
+  </div>
+</footer>
 
 </body>
 </html>

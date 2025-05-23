@@ -1,6 +1,4 @@
-/* placeholder-style.css */
 
-/* Base Reset & Typography */
 body {
     margin: 0;
     padding: 0;
@@ -10,25 +8,25 @@ body {
     line-height: 1.6;
   }
   
-  /* Container Styling */
+  
   .container {
     padding: 3rem 1.5rem;
   }
   
-  /* Headings */
+  
   h1 {
     color: rgb(46, 193, 230);
     font-weight: 700;
     margin-bottom: 1rem;
   }
   
-  /* Paragraphs */
+  
   p {
     font-size: 18px;
     max-width: 700px;
   }
   
-  /* Back Button or Navigation Link (Optional) */
+  
   a.btn-back {
     display: inline-block;
     margin-top: 2rem;

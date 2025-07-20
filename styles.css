@@ -205,3 +205,7 @@ button:hover{
 .case-study {
   height: 100%;
 }
+
+.nba {
+  background-color: white; /* optional for contrast */
+}
